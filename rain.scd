@@ -95,7 +95,7 @@ SynthDef.new(\melodyEffects, {
 
 // Background
 (
-~b0 = Buffer.read(s, "C:/Users/rgild/OneDrive/Desktop/209 Final Project/background rain splice long.wav");
+~b0 = Buffer.read(s, "C:/Users/rfgil/Documents/GitHub/Rain/background rain splice long.wav");
 SynthDef.new(\background, {
 	arg buf=0, rate=1, amp=1;
 	var sig;
